@@ -19,6 +19,7 @@ const getlastName = (callback) => {
     }, 1000);
 };
 
+// callback hell
 getFirstName((result) => {
     getMiddleName((result2) => {
         getlastName((result3) => {

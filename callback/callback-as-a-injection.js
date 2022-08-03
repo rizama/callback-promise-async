@@ -1,8 +1,8 @@
 function calculate(param1, param2, callback) {
     //default operation
-    result = param1 + param2;
+    const result = param1 + param2;
 
-    // callback is function ?
+    // callback is function ? injection
     if (typeof callback == 'function') {
         result = callback(param1, param2);
     }
